@@ -3,11 +3,11 @@
 lng_pair: id_Examples
 
 # 제목
-title: Examples1234
+title: Examples
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Mr. Green's Workshop
+author: Ms. Park's Workshop
 
 #카테고리 설정, 중복 불가
 category: SQL
