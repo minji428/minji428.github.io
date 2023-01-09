@@ -31,7 +31,7 @@ date: 2023-01-09 20:34:00 +0900
 <!-- outline-end -->
 
 <h2>문제</h2>
-<img src="/assets/img/posts/sql/Population_Density_Difference.JPG" title="Population_Density_Difference.JPG" alt="Population_Density_Difference.JPG"/><br>
+<img src="/assets/img/posts/sql/Population_Density_Difference.jpg" title="Population_Density_Difference.JPG" alt="Population_Density_Difference.JPG"/><br>
 
 <h2>코드</h2>
 <h3>MySQL</h3>

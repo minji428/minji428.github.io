@@ -31,7 +31,7 @@ date: 2023-01-09 20:41:00 +0900
 <!-- outline-end -->
 
 <h2>문제</h2>
-<img src="/assets/img/posts/sql/Weather_Observation_Station_4.JPG" title="Weather_Observation_Station_4.JPG" alt="Weather_Observation_Station_4.JPG"/><br>
+<img src="/assets/img/posts/sql/Weather_Observation_Station_4.jpg" title="Weather_Observation_Station_4.JPG" alt="Weather_Observation_Station_4.JPG"/><br>
 
 <h2>코드</h2>
 <h3>MySQL</h3>

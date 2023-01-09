@@ -31,7 +31,7 @@ date: 2023-01-09 20:30:00 +0900
 <!-- outline-end -->
 
 <h2>문제</h2>
-<img src="/assets/img/posts/sql/Average_Population.JPG" title="Average_Population.JPG" alt="Average_Population.JPG"/><br>
+<img src="/assets/img/posts/sql/Average_Population.jpg" title="Average_Population.JPG" alt="Average_Population.JPG"/><br>
 
 <h2>코드</h2>
 <h3>MySQL</h3>

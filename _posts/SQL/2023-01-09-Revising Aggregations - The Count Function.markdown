@@ -31,7 +31,7 @@ date: 2023-01-09 20:25:00 +0900
 <!-- outline-end -->
 
 <h2>문제</h2>
-<img src="/assets/img/posts/sql/Revising_Aggregations-The_Count_Function.JPG" title="Revising_Aggregations-The_Count_Function.JPG" alt="Revising_Aggregations-The_Count_Function.JPG"/><br>
+<img src="/assets/img/posts/sql/Revising_Aggregations-The_Count_Function.jpg" title="Revising_Aggregations-The_Count_Function.JPG" alt="Revising_Aggregations-The_Count_Function.JPG"/><br>
 
 <h2>코드</h2>
 <h3>MySQL</h3>
