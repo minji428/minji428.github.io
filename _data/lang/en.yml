@@ -106,8 +106,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Study
+  button_name: Study
   upside_down_tabs:
     tab:
       all: All
