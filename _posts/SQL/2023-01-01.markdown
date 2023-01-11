@@ -27,7 +27,7 @@ date: 2023-01-01 00:17:00 +0900
 ---
 <!-- 소제목 -->
 <!-- outline-start -->
-https://www.hackerrank.com/challenges/revising-aggregations-sum/problem?h_r=internal-search 
+<a href="https://www.hackerrank.com/challenges/revising-aggregations-sum/problem?h_r=internal-search">test</a>
 <!-- outline-end -->
 
 <h2>문제</h2>
