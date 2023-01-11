@@ -13,7 +13,7 @@ author: Ms. Park's Workshop
 category: SQL
 
 # 태그 설정, 중복 가능
-tags: [sql, leetcode, hackerRank]
+tags: [sql, leetcode, HackerRank]
 
 # 대표 이미지 파일 설정
 # img: ":post_pic1.jpg"
