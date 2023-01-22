@@ -4,41 +4,107 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
-# publish date (used for seo)
-# if not specified, site.time will be used.
-#date: 2022-03-03 12:32:00 +0000
-
-# for override items in _data/lang/[language].yml
-#title: My title
-#button_name: "My button"
-# for override side_and_top_nav_buttons in _data/conf/main.yml
-#icon: "fa fa-bath"
-
-# seo
-# if not specified, date will be used.
-#meta_modify_date: 2022-03-03 12:32:00 +0000
-# check the meta_common_description in _data/owner/[language].yml
-#meta_description: ""
-
-# optional
-# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
-# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
-#image_viewer_on: true
-# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
-# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
-#image_lazy_loader_on: true
-# exclude from on site search
-#on_site_search_exclude: true
-# exclude from search engines
-#search_engine_exclude: true
-# to disable this page, simply set published: false or delete this file
-#published: false
+img: ":profile.jpg"
+title: Portfolio
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 {%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+<!-- {{ website_info_text_first }}
+{{ website_info_text_second }} -->
 
-{{ website_info_text_second }}
+***
+<center>
+<span style="font-size:170%; font-weight:bold">
+    박민지
+</span>
+</center>
+
+<center>MAJOR : Department of Industrial Engineering, Computer Engineering</center>
+<center>Seokyeong University</center>
+<center>124, Seokyeong-ro, Seongbuk-gu, Seoul, Republic of Korea</center>
+
+## Personal Data
+---
+> 1998.04.28 대한민국,서울시,성북구 <br/>
+> 연락처: <a href="mailto:alswl980428@gmail.com">alswl980428@gmail.com</a><br/>
+> Github : <a href="https://github.com/minji428">https://github.com/minji428</a><br/>
+
+
+## Education
+---
+> Mar.2017 ~ Feb.2019 : 서일대학교 산업경영학과 <br/>
+> Mar.2020 ~ Feb.2022 : 서경대학교 산업경영시스템공학과, 컴퓨터공학과
+
+
+## Research Interest
+---
+* WEB
+    + HTML
+    + CSS
+    + JSP
+    + SPRING
+    + REACT
+* DATABASE
+    + MYSQL
+    + ORACLE
+* CLOUD
+    + AWS
+
+
+## Project
+---
+* **3D Unity 게임(2020)**<br/>
+Unity를 사용하여 3D 게임 개발(2020)<br/>
+
+* **렌트카 예약(2020)**<br/>
+JSP, MYSQL을 활용한 렌트카 예약 웹사이트 제작 프로젝트(2020)<br/>
+
+* **My Health Partner(2021)**<br/>
+JSP, MYSQL을 활용한 운동 서비스 웹사이트 제작 프로젝트(2021)<br/>
+
+* **My Ticket(2021)**<br/>
+JSP, MYSQL을 활용한 티켓 예약 웹사이트 제작 프로젝트(2021)<br/>
+
+* **ARP(Area Review Platform)(2022)**<br/>
+Spring을 활용한 지역 리뷰 플랫폼 제작 프로젝트(2022)<br/>
+
+* **TTP(2022)**<br/>
+Spring을 활용한 서비스키 및 OTP 번호 생성 프로젝트(2022)<br/>
+
+* **HAPPY UN-BIRTHDAY(2022~2023)**<br/>
+<a href="https://unbirthday.kr">https://unbirthday.kr</a><br/>
+React, Spring Boot를 활용한 웹사이트 제작 프로젝트(2022~2023)<br/>
+
+
+## Work Experiences
+---
+* **SK m&service**<br>
+Dec.2021 ~ 현재 : 12월 6일 입사<br>
+
+
+## Activity
+---
+* **SKUP(SKU Programmers)**<br>
+July.2021 ~ Dec.2021: 웹 애플리케이션을 개발하는 학습 동아리<br>
+JSP, MYSQL을 활용한 운동 커뮤니티 웹 사이트 My Health Partner 개발<br>
+
+* **SKsack**<br>
+Dec.2021 ~ Dec.2021: 웹 애플리케이션을 개발<br>
+Spring, Oracle을 활용한 지역 리뷰 플렛폼 ARP 개발<br>
+
+* **TAT(Team About Time)**<br>
+July.2022 ~ : 사이드프로젝트 팀<br>
+364일의 비생일을 축하해 HAPPY UN-BIRTHDAY 개발<br>
+
+* **Oracle Study**<br>
+Dec.2022 ~ Jan.2023 : 오라클의 내부 구조(아키텍처) 및 쿼리 튜닝에 대해 학습<br>
+
+* **백문이불여일타**<br>
+Jan.2023 ~ : SQL을 심화학습하는 스터디<br>
+
+
+## Skills and Certification
+---
+-Language : JAVA, Python, Typescript
