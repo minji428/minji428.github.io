@@ -13,16 +13,16 @@ date: 2023-01-22 21:36:00 +0900
 <!-- outline-end -->
 
 <h2>문제</h2>
-<img src="/assets/img/posts/sql/181-1.jpg" title="197-1.jpg" alt="197-1.jpg"/><br>
-<img src="/assets/img/posts/sql/181-2.jpg" title="197-2.jpg" alt="197-2.jpg"/><br>
+<img src="/assets/img/posts/sql/197-1.jpg" title="197-1.jpg" alt="197-1.jpg"/><br>
+<img src="/assets/img/posts/sql/197-2.jpg" title="197-2.jpg" alt="197-2.jpg"/><br>
 
 <h2>코드</h2>
 <h3>Oracle</h3>
 
 ```sql
 SELECT TODAY.ID AS id
-FROM WEATHER AS TODAY
-    INNER JOIN WEATHER AS YESTERDAY ON YESTERDAY.RECORDDATE + (INTERVAL '1' DAY) = TODAY.RECORDDATE
+FROM WEATHER TODAY
+    INNER JOIN WEATHER YESTERDAY ON YESTERDAY.RECORDDATE + (INTERVAL '1' DAY) = TODAY.RECORDDATE
 WHERE TODAY.TEMPERATURE > YESTERDAY.TEMPERATURE
 ```
 
@@ -34,6 +34,9 @@ FROM WEATHER AS TODAY
     INNER JOIN WEATHER AS YESTERDAY ON DATE_ADD(YESTERDAY.RECORDDATE, INTERVAL 1 DAY) = TODAY.RECORDDATE
 WHERE TODAY.TEMPERATURE > YESTERDAY.TEMPERATURE
 ```
+
+<h2>수행 결과</h2>
+<img src="/assets/img/posts/sql/197result.jpg" title="197result.jpg" alt="197result.jpg"/><br>
 
 <h2>참고사항</h2>
 <h3>Oracle 시간 더하기, 빼기</h3>
