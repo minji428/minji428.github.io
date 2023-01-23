@@ -1,0 +1,66 @@
+---
+# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: 숫자를 다루는 함수
+author: Ms. Park's Workshop
+title: 숫자를 다루는 함수
+category: SQL
+tags: [sql]
+date: 2023-01-24 00:55:00 +0900
+---
+<!-- 소제목 -->
+<!-- outline-start -->
+<a href="https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html">숫자를 다루는 함수</a>
+<!-- outline-end -->
+
+<h2>MYSQL</h2>
+<table>
+    <thead>
+        <tr>
+            <th>함수</th>
+            <th>설명</th>
+            <th>실행</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ROUND(컬럼명/값, n)</td>
+            <td>값을 소수점 이하 n자리수로 반올림</td>
+            <td>ROUND(8.765, 2) -> 8.77</td>
+        </tr>
+        <tr>
+            <td>TRUNCATE(컬럼명/값, n)</td>
+            <td>값을 소수점 이하 n자리수까지만 남기고 나머지 버림</td>
+            <td>TRUNCATE(8.765, 2) -> 8.76</td>
+        </tr>
+        <tr>
+            <td>CEIL(컬럼명/값)</td>
+            <td>값의 소수점 이하를 올림해 정수 반환</td>
+            <td>CEIL(8.765) -> 9</td>
+        </tr>
+        <tr>
+            <td>FLOOR(컬럼명/값)</td>
+            <td>값의 소수점 이하를 버림해 정수 반환</td>
+            <td>FLOOR(8.765) -> 8</td>
+        </tr>
+        <tr>
+            <td>POWER(컬럼명/값, n), POW(컬럼명/값, n)</td>
+            <td>값을 n제곱해서 반환</td>
+            <td>POWER(2, 3) -> 8, POWER(8, 1/3) -> 2</td>
+        </tr>
+        <tr>
+            <td>SQRT(컬럼명/값)</td>
+            <td>값의 제곱근을 반환</td>
+            <td>SQRT(4) -> 2</td>
+        </tr>
+        <tr>
+            <td>MOD(컬럼명/값, n)</td>
+            <td>값을 n으로 나누었을 떄의 나머지를 반환</td>
+            <td>MOD(4, 2) -> 0</td>
+        </tr>
+        <tr>
+            <td>ABS(컬럼명/값)</td>
+            <td>값의 절대값을 반환</td>
+            <td>ABS(-4.5) -> 4.5</td>
+        </tr>
+    </tbody>
+</table>

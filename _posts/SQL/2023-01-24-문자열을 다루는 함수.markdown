@@ -1,0 +1,46 @@
+---
+# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: 문자열을 다루는 함수
+author: Ms. Park's Workshop
+title: 문자열을 다루는 함수
+category: SQL
+tags: [sql]
+date: 2023-01-24 01:15:00 +0900
+---
+<!-- 소제목 -->
+<!-- outline-start -->
+<a href="https://dev.mysql.com/doc/refman/8.0/en/string-functions.html">문자열을 다루는 함수</a>
+<!-- outline-end -->
+
+<h2>MYSQL</h2>
+<table>
+    <thead>
+        <tr>
+            <th>함수</th>
+            <th>설명</th>
+            <!-- <th>실행</th> -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>LOWER(컬럼명/문자열)</td>
+            <td>모든 문자를 소문자로 반환</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>UPPER(컬럼명/문자열)</td>
+            <td>모든 문자를 대문자로 반환</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>REPLACE(컬럼명/문자열, 패턴1, 패턴2)</td>
+            <td>문자열에 포함된 패턴1을 패턴2로 대체해 반환</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CONCAT(컬럼명/문자열1, 컬럼명/문자열2, ...)</td>
+            <td>여러 개의 문자열을 차례대로 연결해 하나의 문자열로 반환</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
