@@ -5,19 +5,19 @@
 page_data:
   main:
     header: "Projects"
-    info: "Your Project page description."
+    info: "MINJI Project page description."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
-    back_color: "lightblue"
+    # img: ":projects-heading.jpg"
+    back_color: "gray"
 
   category:
-    - title: "Example"
-      type: id_example
-      color: "gray"
-    - title: "Picture"
-      type: id_picture
-      color: "#62b462"
+    # - title: "Example"
+    #   type: id_example
+    #   color: "gray"
+    # - title: "Picture"
+    #   type: id_picture
+    #   color: "#62b462"
     - title: "Quote"
       type: id_quote
       color: "#2FD0ED"
