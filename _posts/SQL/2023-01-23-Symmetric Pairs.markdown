@@ -4,7 +4,7 @@ lng_pair: Symmetric Pairs
 author: Ms. Park's Workshop
 title: Symmetric Pairs
 category: SQL
-tags: [sql, HackRank]
+tags: [sql, HackerRank]
 date: 2023-01-23 22:59:00 +0900
 ---
 <!-- 소제목 -->
