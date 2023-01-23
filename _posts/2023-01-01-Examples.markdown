@@ -10,7 +10,7 @@ title: Examples
 author: Ms. Park's Workshop
 
 #카테고리 설정, 중복 불가
-category: SQL
+category: algorithm
 
 # 태그 설정, 중복 가능
 tags: [sql, LeetCode, HackerRank]
