@@ -55,27 +55,27 @@ title: Portfolio
 
 ## Project
 ---
-* **3D Unity 게임(2020)**<br/>
-Unity를 사용하여 3D 게임 개발(2020)<br/>
-
-* **렌트카 예약(2020)**<br/>
-JSP, MYSQL을 활용한 렌트카 예약 웹사이트 제작 프로젝트(2020)<br/>
-
-* **My Health Partner(2021)**<br/>
-JSP, MYSQL을 활용한 운동 서비스 웹사이트 제작 프로젝트(2021)<br/>
-
-* **My Ticket(2021)**<br/>
-JSP, MYSQL을 활용한 티켓 예약 웹사이트 제작 프로젝트(2021)<br/>
-
-* **ARP(Area Review Platform)(2022)**<br/>
-Spring을 활용한 지역 리뷰 플랫폼 제작 프로젝트(2022)<br/>
+* **HAPPY UN-BIRTHDAY(2022~2023)**<br/>
+<a href="https://unbirthday.kr">https://unbirthday.kr</a><br/>
+React, Spring Boot를 활용한 웹사이트 제작 프로젝트(2022~2023)<br/>
 
 * **TTP(2022)**<br/>
 Spring을 활용한 서비스키 및 OTP 번호 생성 프로젝트(2022)<br/>
 
-* **HAPPY UN-BIRTHDAY(2022~2023)**<br/>
-<a href="https://unbirthday.kr">https://unbirthday.kr</a><br/>
-React, Spring Boot를 활용한 웹사이트 제작 프로젝트(2022~2023)<br/>
+* **ARP(Area Review Platform)(2022)**<br/>
+Spring을 활용한 지역 리뷰 플랫폼 제작 프로젝트(2022)<br/>
+
+* **My Ticket(2021)**<br/>
+JSP, MYSQL을 활용한 티켓 예약 웹사이트 제작 프로젝트(2021)<br/>
+
+* **My Health Partner(2021)**<br/>
+JSP, MYSQL을 활용한 운동 서비스 웹사이트 제작 프로젝트(2021)<br/>
+
+* **렌트카 예약(2020)**<br/>
+JSP, MYSQL을 활용한 렌트카 예약 웹사이트 제작 프로젝트(2020)<br/>
+
+* **3D Unity 게임(2020)**<br/>
+Unity를 사용하여 3D 게임 개발(2020)<br/>
 
 
 ## Work Experiences
@@ -86,25 +86,25 @@ Dec.2021 ~ 현재 : 12월 6일 입사<br>
 
 ## Activity
 ---
-* **SKUP(SKU Programmers)**<br>
-July.2021 ~ Dec.2021: 웹 애플리케이션을 개발하는 학습 동아리<br>
-JSP, MYSQL을 활용한 운동 커뮤니티 웹 사이트 My Health Partner 개발<br>
+* **백문이불여일타**<br>
+Jan.2023 ~ : SQL을 심화학습하는 스터디<br>
 
-* **SKsack**<br>
-Dec.2021 ~ Dec.2021: 웹 애플리케이션을 개발<br>
-Spring, Oracle을 활용한 지역 리뷰 플렛폼 ARP 개발<br>
+* **Oracle Study**<br>
+Dec.2022 ~ Jan.2023 : 오라클의 내부 구조(아키텍처) 및 쿼리 튜닝에 대해 학습<br>
 
 * **TAT(Team About Time)**<br>
 July.2022 ~ : 사이드프로젝트 팀<br>
 364일의 비생일을 축하해 HAPPY UN-BIRTHDAY 개발<br>
 
-* **Oracle Study**<br>
-Dec.2022 ~ Jan.2023 : 오라클의 내부 구조(아키텍처) 및 쿼리 튜닝에 대해 학습<br>
+* **SKsack**<br>
+Dec.2021 ~ Dec.2021: 웹 애플리케이션을 개발<br>
+Spring, Oracle을 활용한 지역 리뷰 플렛폼 ARP 개발<br>
 
-* **백문이불여일타**<br>
-Jan.2023 ~ : SQL을 심화학습하는 스터디<br>
+* **SKUP(SKU Programmers)**<br>
+July.2021 ~ Dec.2021: 웹 애플리케이션을 개발하는 학습 동아리<br>
+JSP, MYSQL을 활용한 운동 커뮤니티 웹 사이트 My Health Partner 개발<br>
 
 
 ## Skills and Certification
 ---
--Language : JAVA, Python, Typescript
+- Language : JAVA, Python, Typescript
