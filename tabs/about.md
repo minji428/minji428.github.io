@@ -28,7 +28,7 @@ title: Portfolio
 ## Personal Data
 ---
 > 1998.04.28 대한민국,서울시,성북구 <br/>
-> 연락처: <a href="mailto:alswl980428@gmail.com">alswl980428@gmail.com</a><br/>
+> 연락처: <a href="mailto:minjipark.dev@gmail.com">minjipark.dev@gmail.com</a><br/>
 > Github : <a href="https://github.com/minji428">https://github.com/minji428</a><br/>
 
 
