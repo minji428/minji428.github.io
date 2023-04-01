@@ -1,0 +1,154 @@
+---
+# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: Window 함수
+author: Ms. Park's Workshop
+title: Window 함수
+category: SQL
+tags: [sql]
+date: 2023-04-01 21:33:00 +0900
+---
+<!-- 소제목 -->
+<!-- outline-start -->
+<a href="https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html">Window 함수1</a><br/>
+<a href="https://dev.mysql.com/doc/refman/8.0/en/window-function-descriptions.html">Window 함수2</a>
+<!-- outline-end -->
+
+<h3>MYSQL</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>집계함수</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AVG()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>BIT_AND()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>BIT_OR()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>COUNT()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>JSON_ARRAYAGG()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>JSON_OBJECTAGG()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MAX()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MIN()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>STDDEV_POP(), STDDEV(), STD()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>STDDEV_SAMP()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SUM()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>VAR_POP(), </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>VARIANCE()</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>VAR_SAMP()</td>
+            <td></td>
+        </tr>
+
+    </tbody>
+</table>
+
+<h3>Window 함수에서만 지원</h3>
+<table>
+    <thead>
+        <tr>
+            <th>함수</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CUME_DIST()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>DENSE_RANK()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>FIRST_VALUE()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>LAG()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>LAST_VALUE()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>LEAD()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>NTH_VALUE()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>NTILE()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>PERCENT_RANK()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>RANK()</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>ROW_NUMBER()</td>
+            <td></td>
+        </tr> 
+    </tbody>
+</table>
+
+<h3>모양새</h2>
+함수(컬럼) over (partition by 컬럼 order by 컬럼)<br/>
+order by 는 필수가 아님<br/><br/>
+
+누적합 구할 때 쓰는 방법 (예시)</br>
+```sql
+SELECT ID
+    , NAME
+    , KG
+    , LINE
+    , SUM(KG) OVER (ORDER BY LINE) AS CUMSUM
+FROM ELEVATOR
+```
