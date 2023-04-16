@@ -1,0 +1,34 @@
+---
+# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: 사용자정의함수
+author: Ms. Park's Workshop
+title: 사용자정의함수
+category: SQL
+tags: [sql]
+date: 2023-04-16 15:49:00 +0900
+published : true
+---
+<!-- 소제목 -->
+<!-- outline-start -->
+<a href="https://www.mysqltutorial.org/mysql-stored-function/">사용자정의함수</a>
+<!-- outline-end -->
+
+
+<h2>코드</h2>
+<h3>MySQL</h3>
+
+```sql
+CREATE FUNCTION 'function name'('parameter name', 'datatype')
+    RETURNS 'datatype' (DETERMINISTIC)
+BEGIN
+    DECLARE 'variable name' 'datatype';
+    SET ;
+    RETURN (Query) / 'variable name';
+END
+```
+
+<h2>사용방법</h2>
+
+```sql
+SELECT 'function name'(parameter)
+```
