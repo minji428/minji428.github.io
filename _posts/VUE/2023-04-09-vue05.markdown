@@ -1,21 +1,18 @@
 ---
-# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: 05. 라우터
 author: Ms. Park's Workshop
 title: 05. 라우터
-category: vue
+category: VUE
 tags: [vue]
 date: 2023-04-09 19:23:00 +0900
 ---
+
 <h2>라우터</h2><hr/>
 뷰 라이브러리를 이용하여 싱글 페이지 애플리케이션을 구현할 때 사용하는 라이브러리
 
 <h3>설치 방법</h3><hr/>
 <h4>CDN 방식</h4>
-```javascript
-<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-router@3.5.3/dist/vue-router.js"></script>
-```
+<img src="/assets/img/posts/vue/vue11.jpg" title="vue11.jpg" alt="vue11.jpg"/><br>
 
 <h4>NPM 방식</h4>
 ```javascript
@@ -55,7 +52,7 @@ new VueRouter{(
 
 <h3>router-view</h3>
 브라우저의 주소 창에서 url이 변경되면, 앞에서 정의한 routes 속성에 따라 해당 컴포넌트가 화면에 뿌려짐
-뿌려지는 지점은 <xmp><router-view>이다.</xmp> 
+뿌려지는 지점은 router-view 이다.
 ```js
 <div id="app">
     <router-view></router-view>
@@ -64,13 +61,13 @@ new VueRouter{(
 앞에서 정의한 라우팅 옵션 기준으로 /login 은 로그인 컴포넌트를 /home 은 홈 컴포넌트를 뿌려줌
 
 <h3>router-link</h3>
-화면의 버튼을 클릭해서 페이지를 이동할 수 있게 해주는게 <xmp><router-link></xmp>
+화면의 버튼을 클릭해서 페이지를 이동할 수 있게 해주는게 'router-link'
 ```js
 <div id="app">
     <router-link to="이동할URL"></router-link>
 </div>
 ```
-실행할 실제 화면에서는 <xmp><a>태그로 변환되어서 나옴</xmp>
+실행할 실제 화면에서는 'a'태그로 변환되어서 나옴
 
 
 

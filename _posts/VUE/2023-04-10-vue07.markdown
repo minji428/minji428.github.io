@@ -1,0 +1,75 @@
+---
+lng_pair: 07. 템플릿 문법
+author: Ms. Park's Workshop
+title: 07. 템플릿 문법
+category: VUE
+tags: [vue]
+date: 2023-04-10 16:06:00 +0900
+---
+
+<h2>watch vs computed</h2>
+<a href="https://vuejs.org/guide/essentials/computed.html">공식문서</a>
+
+<h2>watch 속성</h2>
+데이터를 데이터를 대상으로 놓을 수 있고, <br/>
+데이터의 변화에 따라서 특정 로직을 실행할 수 있도록 함 <br/>
+
+
+<h2> 코드 작성하기 </h2>
+```js
+<div id="app">
+    <button v-on:click="addNum">increase</button>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            num : 10
+        },
+        watch: {
+            num: function(){
+                this.logText();
+            }
+        },
+        methods: {
+            addNum : function() {
+                this.num = this.num +1;
+            },
+            logText : function(){
+                console.log('changed');
+            }
+        }
+    })
+</script>
+```
+
+<img src="/assets/img/posts/vue/vue09.jpg" title="vue09.jpg" alt="vue09.jpg"/><br>
+<h2>computed 속성</h2>
+
+```js
+<div id="app">
+<p v-bind:class="errorTextColor">Hello</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+new Vue({
+    el: '#app',
+    data: {
+    // cname: 'blue-text',
+    isError: false
+    },
+    computed: {
+    errorTextColor: function() {
+        // if (isError) {
+        //   return 'warning'
+        // } else {
+        //   return null;
+        // }
+        return this.isError ? 'warning' : null;
+    }
+    }
+});
+</script>
+```

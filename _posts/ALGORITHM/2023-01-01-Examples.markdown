@@ -1,4 +1,7 @@
 ---
+# 실행 명령어
+# bundle exec jekyll serve
+
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
 
@@ -13,7 +16,7 @@ author: Ms. Park's Workshop
 category: algorithm
 
 # 태그 설정, 중복 가능
-tags: [sql, LeetCode, HackerRank]
+tags: [sql, LeetCode, HackerRank, vue]
 
 # 대표 이미지 파일 설정
 # img: ":post_pic1.jpg"

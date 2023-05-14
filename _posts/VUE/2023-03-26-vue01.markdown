@@ -1,12 +1,17 @@
 ---
-# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: 01. Vue.js 소개
 author: Ms. Park's Workshop
 title: 01. Vue.js 소개
-category: vue
+category: VUE
 tags: [vue]
 date: 2023-03-26 16:26:00 +0900
+published : true
 ---
+<!-- 소제목 -->
+<!-- outline-start -->
+Vue.js란?
+<!-- outline-end -->
+
 
 <h2>Vue.js 란</h2><hr/>
 MVVM 패턴의 뷰 모델(ViewModel) 레이어에 해당하는 화면(View)단 라이브러리
@@ -64,6 +69,7 @@ MVVM 패턴의 뷰 모델(ViewModel) 레이어에 해당하는 화면(View)단 �
 ```
 
 <h3>Object.defineProperty 사용법</h3>
+
 ```java
     Object.defineProperty(대상 객체, 객체의 속성, {
     // 정의할 내용  

@@ -1,9 +1,8 @@
 ---
-# multilingual  pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: 03. 컴포넌트
 author: Ms. Park's Workshop
 title: 03. 컴포넌트
-category: vue
+category: VUE
 tags: [vue]
 date: 2023-04-01 19:19:00 +0900
 ---

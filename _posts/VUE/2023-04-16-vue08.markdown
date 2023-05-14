@@ -1,0 +1,70 @@
+---
+lng_pair: 08. 프로젝트 생성 도구 - VueCLI
+author: Ms. Park's Workshop
+title: 08. 프로젝트 생성 도구 - VueCLI
+category: VUE
+tags: [vue]
+date: 2023-04-16 20:49:00 +0900
+---
+
+<h2>CLI란?</h2>
+Command Line Interface의 약자로 명령어를 통한 특정 액션을 수행하는 보조 도구
+
+<h3>버전 차이</h3>
+[Vue CLI 2.x]<br/>
+vue init '프로젝트 템플릿 유형' '프로젝트 폴더 위치' <br/><br/>
+
+[Vue CLI 3.x]
+vue create '프로젝트 폴더 위치'
+
+<h3>설치 방법</h3>
+vue create vue-cli를 터미널 창에 입력
+<img src="/assets/img/posts/vue/vue10.jpg" title="vue10.jpg" alt="vue10.jpg"/><br>
+실행을 하고 나면 http://localhost:8080/이 뜸<br/>
+
+<h3>싱글 파일 컴포넌트 구조</h3>
+
+```javascript
+<template>
+    <!-- HTML -->
+</template>
+
+<script>
+export default {
+    <!-- javascript -->
+}
+</script>
+
+<style>
+    <!-- css -->
+</style>
+```
+
+<h2>설정</h2>
+최상단의 template안에 div 태그는 하나만 있어야 함<br/>
+루트에는 하나만 가지고 있어야해서 <br/>
+div 태그 안에 여러개의 div 태그는 가능/ React와 동일<br/>
+
+<h2>문법</h2>
+
+```js
+<template>
+  <div>
+    {{ str }}
+  </div>
+</template>
+
+<script>
+export default {
+  data: function() {
+    return {
+      str: 'hi'
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
+```
