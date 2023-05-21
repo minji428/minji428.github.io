@@ -165,9 +165,9 @@ export default {
 ```
 
 <h3>실행 화면</h3>
-버튼 누르기 전
+<h4>버튼 누르기 전</h4>
 <img src="/assets/img/posts/vue/vue15.jpg" title="vue15.jpg" alt="vue15.jpg"/><br>
-버튼 누른 후
+<h4>버튼 누른 후</h4>
 <img src="/assets/img/posts/vue/vue16.jpg" title="vue16.jpg" alt="vue16.jpg"/><br>
 
 <hr/>
