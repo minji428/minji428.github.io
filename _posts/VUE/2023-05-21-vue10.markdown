@@ -1,0 +1,53 @@
+---
+lng_pair: 10. 사용자 입력 폼 만들기
+author: Ms. Park's Workshop
+title: 10. 사용자 입력 폼 만들기
+category: VUE
+tags: [vue]
+date: 2023-05-21 17:29:00 +0900
+---
+<h2>사용자 입력 폼 만들기</h2>
+<h3>App.vue</h3>
+templace 부분의 v-on이 적혀 있으면 블로그가 깨져서 전체 코드는 깃과 이미지 파일 참고
+
+```html
+<script>
+import axios from 'axios'
+
+export default {
+  data: function(){
+    return {
+      username: '',
+      password: '',
+    }
+  },
+  methods: {
+    submitForm: function(){
+      console.log(this.username, this.password)
+      var url = 'https://jsonplaceholder.typicode.com/users'
+      var data = {
+        username : this.username,
+        password : this.password
+      }
+      axios.post(url, data)
+        .then(function(response) {
+          console.log(response)
+        })
+        .catch(function(error){
+          console.log(error)
+        })
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
+````
+
+<h3>전체 코드 이미지 캡처</h3>
+<img src="/assets/img/posts/vue/vue17.jpg" title="vue17.jpg" alt="vue17.jpg"/><br>
+
+<h3>참고 깃url</h3>
+<a href="https://github.com/minji428/vue_study/blob/main/vue-form/src/App.vue">사용자 입력 폼 git</a>
