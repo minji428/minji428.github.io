@@ -16,11 +16,8 @@ date: 2023-04-10 16:06:00 +0900
 
 
 <h2> 코드 작성하기 </h2>
-```js
-<div id="app">
-    <button v-on:click="addNum">increase</button>
-</div>
 
+```js
 <script>
     new Vue({
         el: '#app',
@@ -43,6 +40,10 @@ date: 2023-04-10 16:06:00 +0900
     })
 </script>
 ```
+button을 코드에 넣으면 깃블로그에서 카테고리로 볼 수가 없어서 전체코드는 캡처<br/>
+<img src="/assets/img/posts/vue/vue12.jpg" title="vue12.jpg" alt="vue12.jpg"/><br>
+
+
 
 <img src="/assets/img/posts/vue/vue09.jpg" title="vue09.jpg" alt="vue09.jpg"/><br>
 <h2>computed 속성</h2>
