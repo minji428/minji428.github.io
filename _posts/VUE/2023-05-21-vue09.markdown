@@ -1,0 +1,177 @@
+---
+lng_pair: 09. 싱글파일 컴포넌트
+author: Ms. Park's Workshop
+title: 09. 싱글파일 컴포넌트
+category: VUE
+tags: [vue]
+date: 2023-05-21 13:19:00 +0900
+---
+
+<h2>싱글파일 컴포넌트</h2>
+Vue 싱글 파일 컴포넌트(Single-File Components: SFC, 일명 *.vue 파일)는 컴포넌트의 템플릿, 로직 및 스타일을 하나의 파일로 묶어낸 특수한 파일 형식<br/>
+vue 입력 후 tab키를 누르면 아래와 같이 기본 양식이 출력 됨
+
+```html
+<template>
+    <!-- HTML -->
+    <div>header</div>
+</template>
+
+<script>
+export default {
+    // javascript
+}
+</script>
+
+<style>
+    /* CSS */
+</style>
+```
+
+<h2>기존과 CLI</h2>
+기존에는 new Vue({ data: {} }) 와 같은 식으로 작성했었으나<br/>
+
+``` js
+export default{
+    data: function({
+        return {
+
+        }
+    })
+}
+```
+위와 같은 형식으로 작성하면 됨<br/>
+뷰 최신 버전같은 경우 규칙에 엄격해지고 있으며, 따르지 않을 경우 console에 오류가 나타날 수 있음
+
+<h2>props 속성 사용 방법</h2>
+<h3>파일 구조</h3>
+<img src="/assets/img/posts/vue/vue13.jpg" title="vue13.jpg" alt="vue13.jpg"/><br>
+
+<hr/>
+<h3>App.vue</h3>
+
+```html
+<template>
+  <div>
+    <app-header v-bind:propsdata="str"></app-header>
+  </div>
+</template>
+
+<script>
+import AppHeader from './components/AppHeader.vue'
+export default {
+  data: function(){
+    return {
+      str: 'Header'
+    }
+  },
+  components: {
+    'app-header': AppHeader
+  }
+}
+</script>
+
+<style>
+
+</style>
+```
+
+
+<h3>AppHeader.vue</h3>
+
+```html
+<template>
+  <header>
+    <h1>{{ propsdata }}</h1>
+  </header>
+</template>
+
+<script>
+export default {
+  props: ['propsdata']
+}
+</script>
+
+<style>
+
+</style>
+```
+
+<h3>실행 화면</h3>
+<img src="/assets/img/posts/vue/vue14.jpg" title="vue14.jpg" alt="vue14.jpg"/><br>
+
+<hr/>
+<h2>event emit 구현</h2>
+<h3>App.vue</h3>
+
+```html
+<template>
+  <div>
+    <app-header
+      v-bind:propsdata="str"
+      v-on:renew="renewStr">
+    </app-header>
+  </div>
+</template>
+
+<script>
+import AppHeader from './components/AppHeader.vue'
+export default {
+  data: function(){
+    return {
+      str: 'Header'
+    }
+  },
+  components: {
+    'app-header': AppHeader
+  },
+  methods: {
+    renewStr: function(){
+      this.str = 'hi'
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
+```
+
+<h3>AppHeader.vue</h3>
+
+```html
+<template>
+  <header>
+    <h1>{{ propsdata }}</h1>
+    <button v-on:click="sendEvent">send</button>
+  </header>
+</template>
+
+<script>
+export default {
+  props: ['propsdata'],
+  methods: {
+    sendEvent: function(){
+      this.$emit('renew');
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
+```
+
+<h3>실행 화면</h3>
+버튼 누르기 전
+<img src="/assets/img/posts/vue/vue15.jpg" title="vue15.jpg" alt="vue15.jpg"/><br>
+버튼 누른 후
+<img src="/assets/img/posts/vue/vue16.jpg" title="vue16.jpg" alt="vue16.jpg"/><br>
+
+<hr/>
+<h2>CLI 정리</h2>
+vue-cli 란 cli로 생성한, 보조도구로 생성한 뷰 <br/>
+npm run serve 로 서버 실행 <br/>
+package.json에 명령어가 스크립트로 작성되어 있는것을 볼 수 있음 <br/>

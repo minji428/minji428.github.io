@@ -1,9 +1,0 @@
----
-lng_pair: 09. 싱글파일 컴포넌트
-author: Ms. Park's Workshop
-title: 09. 싱글파일 컴포넌트
-category: VUE
-tags: [vue]
-date: 2023-04-16 20:59:00 +0900
----
-
